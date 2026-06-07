@@ -1,6 +1,6 @@
 from google import genai
 
-client = genai.Client(api_key="your api key paste here ")
+client = genai.Client(api_key="paste your key here")
 
 history = []
 
