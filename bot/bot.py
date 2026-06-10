@@ -1,6 +1,6 @@
 from google import genai
 
-client = genai.Client(api_key="paste your key here")
+client = genai.Client(api_key="Your api key here")
 
 history = []
 
@@ -18,12 +18,3 @@ while 1:
 	print("Bot:", response.text)
 	history.append("Bot: " + response.text)
 
-
-""" 
-
-hola amigo it should work.
-get an api key from google ai studios it is free.
-
-
- 
-"""
