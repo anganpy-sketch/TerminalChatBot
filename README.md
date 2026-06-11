@@ -4,6 +4,14 @@ A terminal-based AI chatbot built in Python that communicates with Google's Gemi
 
 This project was built to learn API integration, Python programming, JSON handling, and terminal application development.
 
+install a venv(virtual environment) to use it.
+follow up commands for help are listed below.
+* python3 -m venv VirtualEnv
+* source VirtualEnv/bin/activate
+* pip install google-genai
+
+
+
 ## Features
 
 * Interactive terminal chat interface
